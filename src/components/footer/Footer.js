@@ -1,6 +1,9 @@
 //  react libraries
 import React from "react";
 
+// styles
+import "./_footer.scss";
+
 // footer component
 const Footer = () => {
   return (

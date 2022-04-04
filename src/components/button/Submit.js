@@ -5,8 +5,12 @@ import React from "react";
 import "./_btn.scss";
 
 // button component
-const Submit = () => {
-  return <button className="submit-btn">Submit</button>;
+const Submit = ({ onClick }) => {
+  return (
+    <button onClick={onClick} className="submit-btn">
+      Submit
+    </button>
+  );
 };
 
 export default Submit;

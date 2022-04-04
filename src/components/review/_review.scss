@@ -1,0 +1,28 @@
+.review-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  margin:10px;
+  background-color: hsl(213, 19%, 22%);
+  cursor: pointer;
+
+  &:hover {
+      background-color: hsl(25deg, 97%, 53%);
+      color: hsl(0, 0%, 100%);
+    }
+}
+.active-item {
+  background-color:hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+
+  &:hover {
+    background-color:hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+  }
+}
