@@ -1,0 +1,16 @@
+.submit-btn {
+    width: 240px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    background-color: hsl(25deg, 97%, 53%);
+    cursor: pointer;
+
+    &:hover {
+      color: hsl(25deg, 97%, 53%);
+      background-color: #fff;
+    }
+  }

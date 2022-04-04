@@ -3,6 +3,7 @@ import React from "react";
 
 // components
 import Footer from "./components/Footer";
+import Submit from "./components/button/Submit";
 
 // main app component
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>{" "}
-      <Button />
+      <Submit />
       <p>
         You selected out of 5 Thank you! We appreciate you taking the time to
         give a rating. If you ever need more support, don’t hesitate to get in
